@@ -1,0 +1,39 @@
+.brand-bg-color {
+    background-color: rgb(40,80,120);
+}
+.navbar-brand {
+    width: 100px;
+}
+.dropdown-menu {
+    background-color: rgb(40,80,120);
+    border: none;
+    transition: all .4s ease-in-out;
+}
+.dropdown-item {
+    color: white;
+}
+
+.view {
+    padding: 15px 0;
+    text-align: center;
+}
+button {
+    width: 150px;
+    background-color: rgb(40,80,120);
+    padding: 5px 0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: .5px .5px 4px -1px rgba(0,0,0,.4);
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    margin-top: 30px;
+    padding: 50px 15px;
+    color: rgb(170,170,170);
+}
+.footer h5 {
+    text-align: center;
+}
