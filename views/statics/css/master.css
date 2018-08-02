@@ -24,8 +24,44 @@
 .row {
     align-items: center;
 }
-
-
+/* -------------forms----------- */
+label {
+    color: white;
+    font-size: 1.2rem;
+}
+.form-input, .form-btn {
+    padding: 5px 0;
+    border-radius: 5px;
+}
+.form-input {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem !important;
+    font-weight: bold;
+    color: rgb(40,80,120);
+    text-indent: 5px;
+    transition: all .5s ease-in-out !important;
+}
+.form-input::placeholder {
+    font-style: italic;
+    font-weight: 400;
+}
+.form-input:focus {
+    text-indent: 15px !important;
+}
+.form-btn {
+    background-color: transparent;
+    width: 150px;
+    font-size: 1.2rem !important;
+    color: white !important;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.form-btn:hover {
+    background-color: white !important;
+    font-weight: bold !important;
+    color: rgb(40,80,120) !important;
+}
 
 /* --------------------- */
 .content {
@@ -46,10 +82,16 @@
     background-color: rgb(40,80,120);
     padding: 5px 0;
     color: white;
-    border: none;
+    border: 1px solid rgb(40,80,120);
     border-radius: 3px;
     box-shadow: .5px .5px 4px -1px rgba(0,0,0,.4);
     cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.view button:hover {
+    background-color: white;
+    font-weight: bold;
+    color: rgb(40,80,120);
 }
 
 footer {
