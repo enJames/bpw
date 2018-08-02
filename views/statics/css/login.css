@@ -1,0 +1,75 @@
+.cover {
+    background-image: url('../img/content/women.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.tint {
+    background-color: rgba(40,80,120,.85);
+    position: relative;
+    height: 100%;
+}
+.login-area {
+    position: absolute;
+    background-color: rgba(40,80,120,.4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 7px 2px rgba(0,0,0,.4);
+}
+.logo-div img {
+    width: 40%;
+}
+.form-container {
+    border-top: 1px solid white;
+}
+label {
+    color: white;
+    font-size: 1.2rem;
+}
+.form-input, .form-btn {
+    padding: 5px 0;
+    border-radius: 5px;
+}
+.form-input {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem !important;
+    font-weight: bold;
+    color: rgb(40,80,120);
+    text-indent: 5px;
+    transition: all .5s ease-in-out !important;
+}
+.form-input::placeholder {
+    font-style: italic;
+    font-weight: 400;
+}
+.form-input:focus {
+    text-indent: 15px !important;
+}
+.form-btn {
+    background-color: transparent;
+    width: 150px;
+    font-size: 1.2rem !important;
+    color: white !important;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.form-btn:hover {
+    background-color: white !important;
+    font-weight: bold !important;
+    color: rgb(40,80,120) !important;
+}
+.login-footer a {
+    color: white;
+}
+
+
+@media screen and (max-width: 500px) {
+    .login-area {
+        width: 90%;
+    }
+}

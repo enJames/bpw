@@ -1,0 +1,54 @@
+.banner {
+    background-image: url('../img/content/market.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.tint {
+    background-color: rgba(0, 20, 80, .7);
+}
+.about-banner-text {
+    padding: 25vh 0;
+    color: white;
+    text-align: center;
+}
+.content h1, .content h3 {
+    color: rgb(40,80,120);
+}
+.content p {
+    width: 70%;
+    margin: auto;
+}
+.sect-a {
+    padding: 70px 15px 40px;
+    text-align: center;
+}
+
+.sect-b, .sect-c {
+    padding: 70px 15px;
+    text-align: center;
+}
+.sect-b {
+    background-color: rgb(238,238,238);
+}
+.sect-img {
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 100px;
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,.4);
+}
+.sect-img img {
+    width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+    .rev {
+        flex-direction: column-reverse !important;
+    }
+    .sect-text {
+        margin-top: 30px
+    }
+}

@@ -20,6 +20,23 @@
     color: white;
 }
 
+/* ----------------------- */
+.row {
+    align-items: center;
+}
+
+
+
+/* --------------------- */
+.content {
+    margin: 0;
+    padding: 0 5%;
+}
+.content h2 {
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+}
 .view {
     padding: 15px 0;
     text-align: center;
@@ -37,7 +54,6 @@
 
 footer {
     background-color: black;
-    margin-top: 30px;
     padding: 50px 15px;
     color: rgb(170,170,170);
 }
