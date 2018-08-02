@@ -4,6 +4,13 @@
 .navbar-brand {
     width: 100px;
 }
+.navbar-toggler {
+    border: 1px solid white !important;
+}
+.fa-bars {
+    font-size: 25px;
+    color: white;
+}
 .dropdown-menu {
     background-color: rgb(40,80,120);
     border: none;
@@ -17,7 +24,7 @@
     padding: 15px 0;
     text-align: center;
 }
-button {
+.view button {
     width: 150px;
     background-color: rgb(40,80,120);
     padding: 5px 0;
