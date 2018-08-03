@@ -39,7 +39,7 @@ body {
 
 .business {
     background-color: white;
-    width: 350px;
+    width: 300px;
     margin: 20px auto;
     padding: 10px;
     border-radius: 5px 5px 0 0;
@@ -79,7 +79,7 @@ body {
 
 @media screen and (max-width: 500px) {
     .content {
-        padding: 0 2%;
+        padding: 0 4%;
     }
     .featured-businesses {
         padding: 0;
