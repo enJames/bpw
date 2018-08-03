@@ -13,6 +13,9 @@
     color: white;
     text-align: center;
 }
+.banner, .content {
+    overflow: hidden;
+}
 .content h1, .content h3 {
     color: rgb(40,80,120);
 }

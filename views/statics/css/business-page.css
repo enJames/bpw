@@ -1,0 +1,60 @@
+.business-profile {
+    background-image: url('../img/bg/two.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    color: white;
+}
+.business-profile-tint {
+    background-color: rgba(0,0,20,.5);
+    height: 100%;
+    padding: 20px 10px;
+}
+.business-logo-wrapper {
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.business-logo-wrapper img {
+    width: 100%;
+}
+.business-name {
+    position: relative;
+}
+.business-name h1{
+    margin-bottom: 0;
+}
+.mantra {
+    font-style: italic;
+}
+.business-detail {
+    margin-bottom: 15px;
+}
+.business-detail i {
+    width: 20px;
+    font-size: 1.1rem;
+    margin: 0 10px 0 5px;
+}
+.sectional-div {
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: .5px .5px 4px -1px rgba(0,0,0,.4);
+}
+.sectional-heading {
+    text-align: center;
+}
+.sectional-div .business {
+    width: 100%;
+}
+.sectional-div .business-img {
+    height: 120px;
+}
+
+@media (max-width: 768px) {
+    .business-logo-wrapper {
+        width: 150px;
+    }
+}

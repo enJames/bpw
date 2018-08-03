@@ -24,6 +24,13 @@
 .row {
     align-items: center;
 }
+.btn-outline-success {
+    color: white;
+    border: 1px solid white;
+}
+.form-control::placeholder {
+    font-style: italic !important;
+}
 /* -------------forms----------- */
 label {
     color: white;
